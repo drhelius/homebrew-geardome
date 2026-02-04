@@ -1,5 +1,5 @@
 cask "gearcoleco" do
-  arch arm: "arm64", intel: "intel"
+  arch arm: "arm", intel: "intel"
 
   version "1.5.5"
   sha256 arm:   "bd162602cf19b9b42173602e7adf1dd1c23f9c88ec45ecc4c7811aeeef8061a6",
