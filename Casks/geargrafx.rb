@@ -17,6 +17,8 @@ cask "geargrafx" do
 
   depends_on macos: ">= :monterey"
 
+  container nested: "Geargrafx.app.zip"
+
   app "Geargrafx.app"
 
   zap trash: [
