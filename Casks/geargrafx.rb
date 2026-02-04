@@ -22,7 +22,7 @@ cask "geargrafx" do
   app "Geargrafx.app"
 
   zap trash: [
-    "~/Library/Preferences/com.geardome.geargrafx.plist",
+    "~/Library/Preferences/com.drhelius.geargrafx.plist",
     "~/Library/Application Support/geargrafx",
   ]
 end
