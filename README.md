@@ -36,6 +36,16 @@ Or install directly with a single command:
 brew install --cask drhelius/geardome/geargrafx
 ```
 
+### Tap Trust
+
+Homebrew may require explicit trust for third-party taps in a future release. If Homebrew asks you to trust this tap, run:
+
+```bash
+brew trust --tap drhelius/geardome
+```
+
+Then install or upgrade normally.
+
 ## Updating
 
 To update all emulators to their latest versions:
