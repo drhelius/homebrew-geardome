@@ -15,7 +15,7 @@ cask "geargrafx" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   container nested: "Geargrafx.app.zip"
 

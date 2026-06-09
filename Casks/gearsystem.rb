@@ -15,7 +15,7 @@ cask "gearsystem" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   container nested: "Gearsystem.app.zip"
 
