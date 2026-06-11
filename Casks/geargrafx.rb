@@ -1,9 +1,9 @@
 cask "geargrafx" do
   arch arm: "arm64", intel: "intel"
 
-  version "1.7.9"
-  sha256 arm:   "a94b9908677fdf700c6e447db4a2fe566c47bde668f37136ca5040502cc0fd19",
-         intel: "848f0f53637d2f633162093799eebb457cbf0081962f4b86df58db0833f2e8b5"
+  version "1.7.10"
+  sha256 arm:   "6eec71fd8101296cfea1a1648786507e7ca2f6e723bfc80fa62df89806c7d073",
+         intel: "003cc77e505a94b7d35f25b1f0a778c557f7ce03880538be709654db3efd078e"
 
   url "https://github.com/drhelius/Geargrafx/releases/download/#{version}/Geargrafx-#{version}-desktop-macos-#{arch}.zip"
   name "Geargrafx"
