@@ -1,9 +1,9 @@
 cask "gearcoleco" do
   arch arm: "arm64", intel: "intel"
 
-  version "1.6.5"
-  sha256 arm:   "ae58ef43a33b83a9e1e5daa9a885babec9336bebc5071728ac62b319d092c30a",
-         intel: "b5c5be2dfb5a9030b6962080471465e9ba2b69313f4642b39b0221ee698cea0f"
+  version "1.6.6"
+  sha256 arm:   "994261b6e03521eec2d5dbdb2213591b4ce42b14319e931bb9fdf18c5048c736",
+         intel: "61308a76ae0a48dffe592b259479dd65dc741e43ef1460f7cc354ef4c5a7d72e"
 
   url "https://github.com/drhelius/Gearcoleco/releases/download/#{version}/Gearcoleco-#{version}-desktop-macos-#{arch}.zip"
   name "Gearcoleco"
