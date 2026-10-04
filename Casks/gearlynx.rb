@@ -1,9 +1,9 @@
 cask "gearlynx" do
   arch arm: "arm64", intel: "intel"
 
-  version "1.2.33"
-  sha256 arm:   "a7ca3b2956f549e99a273abb12e78029c094ae541adbace2683534f5e93b4b58",
-         intel: "dd6eeff549e5556c6c69a1e97d72cf7a0031fb9a77453d651c591e13fb1e2d3d"
+  version "1.2.34"
+  sha256 arm:   "a365d61d44ed21e25163a219cca40bd9509f03d23893aadd13dae7c8ee2599d9",
+         intel: "4a6075768a602afe93ef14cd3cb54f6b00d9d5ff8760db260d587ac4e4476184"
 
   url "https://github.com/drhelius/Gearlynx/releases/download/#{version}/Gearlynx-#{version}-desktop-macos-#{arch}.zip"
   name "Gearlynx"
