@@ -11,6 +11,7 @@ This is the official [Homebrew](https://brew.sh) tap for [DrHelius](https://gith
 | [Gearcoleco](https://github.com/drhelius/Gearcoleco) | ColecoVision | `brew install --cask drhelius/geardome/gearcoleco` |
 | [Geargrafx](https://github.com/drhelius/Geargrafx) | TurboGrafx-16 / PC Engine / SuperGrafx | `brew install --cask drhelius/geardome/geargrafx` |
 | [Gearlynx](https://github.com/drhelius/Gearlynx) | Atari Lynx | `brew install --cask drhelius/geardome/gearlynx` |
+| [Geartowns](https://github.com/drhelius/Geartowns) | FM Towns | `brew install --cask drhelius/geardome/geartowns` |
 
 ## Installation
 
@@ -28,6 +29,7 @@ brew install --cask gearsystem
 brew install --cask gearcoleco
 brew install --cask geargrafx
 brew install --cask gearlynx
+brew install --cask geartowns
 ```
 
 Or install directly with a single command:
