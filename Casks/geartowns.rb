@@ -1,9 +1,9 @@
 cask "geartowns" do
   arch arm: "arm64", intel: "intel"
 
-  version "0.0.1"
-  sha256 arm:   "d17f406a5b04f6d58f15a0e71b29274c67c894054c5454c62e7aaa9d9b724c9f",
-         intel: "aeadcb2acb7aff45c01e81007d1df5f501b8690134a311ac5ec47caaa9360c4a"
+  version "0.0.3"
+  sha256 arm:   "32856dd8c612a33d7438f6aad959ae10a52aa3071ae021e3ab3f07fe74911657",
+         intel: "af2f575991e177cf6b58e49b87569a195654776c1d8dcc4b02e46ed3ee92fef7"
 
   url "https://github.com/drhelius/Geartowns/releases/download/#{version}/Geartowns-#{version}-desktop-macos-#{arch}.zip"
   name "Geartowns"
