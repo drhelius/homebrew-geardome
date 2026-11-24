@@ -1,9 +1,9 @@
 cask "geardox" do
   arch arm: "arm64", intel: "intel"
 
-  version "0.0.1"
-  sha256 arm:   "23ba2334c1c3659bfc644ddc8e84a8d108c7f23c11d2b1a065f2ac0930cc9640",
-         intel: "48b6c3f166eac34876abff96228ae61ac12213fea6588f16a8946272ddb797b5"
+  version "0.0.2"
+  sha256 arm:   "57f707540348468e10fc9ca87040ef292ef7f1c3033a61218df3f3d18d0b7814",
+         intel: "bfdde153733cacaa2049f2ef620564f6923ded58a2df6fdeed4ff806b7736785"
 
   url "https://github.com/drhelius/Geardox/releases/download/#{version}/Geardox-#{version}-desktop-macos-#{arch}.zip"
   name "Geardox"
